@@ -1,0 +1,55 @@
+{
+  "plugins": [
+    "toc2",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "include-codeblock",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "anchor-navigation-ex",
+    "anchor-navigation",
+    "copy-code-button",
+    "alerts",
+    "splitter"
+  ],
+  "pluginsConfig": {
+    "toc2": {
+      "addClass": true,
+      "className": "toc"
+    },
+    "include-codeblock": {
+      "template": "ace",
+      "unindent": true,
+      "theme": "monokai"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy sociallending.io 2018",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": true,
+      "printLog": false,
+      "multipleH1": true,
+      "mode": "float",
+      "float": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        " showLevelIcon": false,
+        " level1Icon": "fa fa-hand-o-right",
+        " level2Icon": "fa fa-hand-o-right",
+        " level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    }
+  }
+}
